@@ -1,15 +1,23 @@
 {
-    "name": "linkcloud",
-    "description": "Information visualization of the content from your links",
+    "name": "Linkcloud",
+    "author": "Cornelius Toole, Jr. <cornelius.toole@gmail.com>",
     "version": "0.0.1",
-    "author": "Cornelius Toole, Jr.",
+    "description": "Information visualizer of the content from your links",
     "licenses": [{
         "type": "MIT",
         "url": "http://creativecommons.org/licenses/MIT/"
     }],
     "viewer":"links",
     "repository":{
+    	"title": "Linkcloud",
+    	"handle": "linkcloud",
         "type": "app",
-        "static":"true"
+        "static": true,
+        "uses": {
+        	"types": ["links"],
+        	"services":  ["twitter", "facebook"]
+        },
+        "url":  "git://github.com/corntoole/LinkCloud.git"
+        
     }
 }
