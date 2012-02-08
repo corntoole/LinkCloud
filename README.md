@@ -1,1 +1,1 @@
-This is a minimal link photo viewer for the locker project.
+This is an information visualizer for your links.

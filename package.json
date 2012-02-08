@@ -1,8 +1,8 @@
 {
     "name": "linkpic",
-    "description": "Viewer of pics from your links",
-    "version": "0.0.2",
-    "author": "Jeremie Miller",
+    "description": "Information visualization of the content from your links",
+    "version": "0.0.1",
+    "author": "Cornelius Toole, Jr.",
     "licenses": [{
         "type": "MIT",
         "url": "http://creativecommons.org/licenses/MIT/"
